@@ -1,0 +1,27 @@
+.footer {
+    padding: 20px 0;
+
+    .content {
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-size: 14px;
+            color: #212529;
+            line-height: 1.5;
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .footer {
+    
+        .content {
+            text-align: center;
+        }
+    }
+}
+
+

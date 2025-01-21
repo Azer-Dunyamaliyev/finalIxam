@@ -1,0 +1,118 @@
+.log {
+    padding: 40px 0;
+    background-image: url('../../../../assets/images/subscribe_area.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .content {
+        padding: 40px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+        .texts {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            span {
+                font-size: 14px;
+                color: #ff3368;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+
+            h3 {
+                font-size: 48px;
+                color: #000;
+                font-weight: 700;
+                width: 70%;
+            }
+        }
+
+        form {
+            display: flex;
+            align-items: center;
+
+            input {
+                width: 400px;
+                padding: 20px 10px;
+                border: none;
+                outline: none;
+                font-size: 14px;
+                color: #000;
+            }
+
+            button {
+                padding: 15px 25px;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                color: #fff;
+                background: linear-gradient(to right, #FF9711, #FF2847);
+                border-radius: 5px;
+            }
+        }
+
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .log {
+        .content {
+    
+            .texts {
+                display: none;
+            }
+    
+            form {
+                display: flex;
+                align-items: center;
+                gap: 0;
+                input {
+                    width: 200px;
+                }
+
+                button {
+                    padding: 10px;
+                    font-size: 14px;
+                }
+            }
+    
+        }
+    }
+
+}
+
+
+@media screen and (max-width:400px) {
+    .log {
+        .content {
+    
+            .texts {
+                display: none;
+            }
+    
+            form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                input {
+                    width: 100px;
+                }
+
+                button {
+                    padding: 15px 20px;
+                    font-size: 14px;
+                }
+            }
+    
+        }
+    }
+
+}

@@ -1,0 +1,48 @@
+.products {
+    padding: 40px 0;
+
+    .content {
+        padding: 40px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+
+        h2 {
+            font-size: 36px;
+            color: #000;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .carts {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+
+
+            
+            
+        }
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .products {
+    
+        .content {
+    
+            h2 {
+                font-size: 28px;
+            }
+    
+            .carts {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+
+}
+
+

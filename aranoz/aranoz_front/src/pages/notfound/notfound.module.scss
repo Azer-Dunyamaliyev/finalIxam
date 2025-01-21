@@ -1,0 +1,24 @@
+.text {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    p {
+        font-size: 42px;
+        color: red;
+        font-weight: 700;
+    }
+
+    button {
+        padding: 10px 15px;
+        border: none;
+        outline: none;
+        color: #fff;
+        text-transform: uppercase;
+        background-color: #000;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
